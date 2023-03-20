@@ -1,0 +1,50 @@
+h2 {
+    border: 2px solid grey;
+    margin-left: 2%;
+    background-color: lightgray;
+    border-color: ghostwhite;
+    width: 40%;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h4 {
+    margin-left: 4%; /*Content display at that percentage from the border of the browser */
+}
+
+/*set the divisions side by side*/
+.main_div {
+    display: flex;
+}
+
+.div_one {
+    color: purple;
+    background-color: lightgray;
+    margin-left: 2%;
+    height: 180px;
+    width: 20%;
+    word-wrap: break-word; /*prevents text from overflowing within a box width*/
+    overflow: hidden; /*automatically readjust the div to content ratio*/
+}
+
+.div_two {
+    color: orange;
+    background-color: lightseagreen;
+    margin-left: 2%;
+    height: 180px;
+    width: 20%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+ol {
+    color: yellow;
+}
+
+img {
+    height: 180px;
+    width: 100%;
+}
