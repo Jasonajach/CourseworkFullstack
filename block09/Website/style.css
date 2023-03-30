@@ -1,0 +1,118 @@
+/* Resets margin and padding, to not have spaces between sections */
+* {
+    margin: 0;
+    padding: 6px 1px;
+}
+
+/* navigation bar styling list */
+ .nav-bar-button {
+    border-radius: 20px;
+    font-size: 24px;
+    background-color: lightseagreen;
+    padding: 18px 18px;
+    margin-left: 2px;
+    text-decoration: solid; /* removes the underlined link */
+}
+
+/* navigation bar class */
+.main-navbar {
+    background-color: aquamarine;
+    padding: 18px 18px;
+    border: 2px;
+    margin-top: 0;
+}
+
+/* id - author name in the header */
+#author-name{
+    font-size: 14px;
+    color:blueviolet;
+    display: flex;
+}
+
+/* about me page, 1st section in the body */
+.about-me {
+    background-color: lightslategray;
+}
+
+.sect2-aboutpage {
+    background-color: slategray;
+    padding-bottom: 80%;
+    overflow: hidden;
+}
+
+
+/* paragraphs */
+p {
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* author name in the header */
+#author-name {
+    float: right;
+}
+
+#homepage-body, #portfolio-body, #aboutpage-body {
+    background-image: url('images/background.png');
+}
+
+/* line spacing within the paragraphs */ 
+.space {
+    line-height: 140%;;
+}
+
+/* About page, section 2 - align text to the right, 105 */
+#sect2-div {
+    margin-left: 6%;
+    padding-top: 2%;
+}
+
+/* Portfolio divisions and sections */ 
+.port-flex {
+    color: azure;
+}
+
+/*sections for the projects, starting at Drawings */
+#portfolio-flex {
+    border-color: white;
+    border: 2px solid;
+    padding-bottom: 20%;
+    margin-left: 2%;
+    margin-bottom: 2%; /*puts spaces between divs */
+}
+
+.port-divs {
+    /*display: flex; */
+    color:azure;
+    margin-bottom: 2%;
+}
+
+/* homepage section1 text */
+.mission-sect {
+    margin-left: 4%;
+    padding-bottom: 80%;
+}
+
+
+/*images for portfolio */
+#folio-img {
+    width: 30%;
+    height: 0%;
+    float: left;
+}
+
+/*the paragraphs within the divisions of the projects */
+#folio-graph {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    color:azure;
+}
+
+/*footer color for the email hyperlink */
+#foot-ref {
+    color: lightgray;
+}
